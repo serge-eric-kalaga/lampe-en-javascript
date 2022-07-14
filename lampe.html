@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+        <script>
+            function allume(id)
+            {
+                       
+                document.getElementById("lampe").src="lamp_alume.gif";       
+    
+            }
+    
+            function eteinte()
+            {
+                       
+                document.getElementById("lampe").src="lamp_eteinte.gif";       
+    
+            }
+            
+        </script>
+
+        <style>
+
+           button{margin-left: 40px;
+                  margin-top: 50px; 
+           }
+
+           img{
+               width: 250px;
+               height: 250px;
+               background-position: center;
+           }
+
+
+           
+    
+
+        </style>
+
+</head>
+
+
+<body>
+
+        <h1>ALUMONS CETTE LAMPE</h1>
+
+        <img id="lampe" src="lamp_eteinte.gif"/></br>
+
+        <button onclick="allume()">Allumer Lampe</button>   <button onclick="eteinte()">Eteindre Lampe</button>
+
+</body>
+
+
+</html>
